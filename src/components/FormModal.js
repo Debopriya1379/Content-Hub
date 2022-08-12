@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export default function FormModal({setOpenform}) {
 
-    const prod_base_url = 'http://localhost:3333/buckets';
+    const prod_base_url = "https://content-hub-json-server-api.herokuapp.com/data";
 
     const [bucketName, setbucketName] = useState("");
     const [cardName, setCardName] = useState("");
